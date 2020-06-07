@@ -1,0 +1,46 @@
+{% load static %}
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+        <div class="classy-nav-container breakpoint-off">
+          <div class="container">
+            <!-- Classy Menu -->
+            <nav class="classy-navbar justify-content-between" id="dentoNav">
+  
+              <!-- Logo -->
+              <a class="nav-brand" href="{% url 'index' %}"><img src="{% static 'dental/img/core-img/logo.png' %}" alt=""></a>
+  
+              <!-- Navbar Toggler -->
+              <div class="classy-navbar-toggler">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+              </div>
+  
+              <!-- Menu -->
+              <div class="classy-menu">
+  
+                <!-- Close Button -->
+                <div class="classycloseIcon">
+                  <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                </div>
+  
+                <!-- Nav Start -->
+                <div class="classynav">
+                  <ul id="nav">
+                    <li><a href="{% url 'index' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'service' %}">Service</a></li>
+                    <li><a href="{% url 'pricing' %}">Pricing</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- Nav End -->
+              </div>
+  
+              <!-- Booking Now Button -->
+              <a href="#app-section" class="btn dento-btn booking-btn">Booking Now</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
