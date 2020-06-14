@@ -10,6 +10,7 @@ django = "*"
 gunicorn = "*"
 django-heroku = "*"
 python-decouple = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
